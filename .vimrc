@@ -7,6 +7,7 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
+
 "tells you the current line number you are on
 set nu
 set nowrap
@@ -20,10 +21,14 @@ set smartcase
 "while word searching, highlighting is matching the characters as you type
 set incsearch
 
+"auto completes searches, use tab (or shift + tab)to navigte words
+"if you ctrl P/N, it will autocomplete words in insert mode
+set wildmenu 
+
 "Ignores capital letters while searching 
 set ignorecase
 
-"use highlighting when doing a search
+"Highlights words that you are searching for
 set hlsearch
 
 set colorcolumn=80
@@ -43,8 +48,6 @@ highlight ColorColun ctermbg=0 guibg=lightblue
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
-Plug 'leafgardland/typescript-vim'
-Plug 'lyuts/vim-rtags'
 
 call plug#end()
 
@@ -56,4 +59,3 @@ set background=dark
 "display options?? meh idk
 set showcmd
 set showmode
-

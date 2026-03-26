@@ -59,3 +59,7 @@ set background=dark
 "display options?? meh idk
 set showcmd
 set showmode
+
+
+"this is a file form the testFile branch
+"it is still not showing up

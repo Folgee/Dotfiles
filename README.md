@@ -7,3 +7,7 @@ For vimrc
 2. Use PlugInstall command
 3.  source file
 4.  Save file, if not save before step 3 
+
+
+alacritty.yml 
+- Not supported anymore, .toml is the new standard

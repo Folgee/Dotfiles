@@ -59,3 +59,7 @@ set background=dark
 "display options?? meh idk
 set showcmd
 set showmode
+
+"Press jk quicky and it exits insert mode 
+imap jk <Esc>
+
